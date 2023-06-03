@@ -1,7 +1,7 @@
 const http = require('http');
 
 const server = http.createServer((req, res) => {
-  const redirectUrl = 'https://persist.rocks/posventa';
+  const redirectUrl = 'https://solucionesciviles.com.co/posventa';
   const queryParams = req.url.slice(1);
   console.log(`** queryParams: ${queryParams}`);
   const newUrl = `${redirectUrl}${queryParams}`;
